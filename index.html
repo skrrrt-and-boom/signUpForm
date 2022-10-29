@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="side">
+      <img src="images\odin-lined.png" alt="">
+      <p>Project made with odin course</p>
+    </div>
+    <div class="main">
+      <div class="opis">
+        <h3>This site was created to improve my web development skills. You can enjoy logging in :()</h3>
+      </div>
+      <form class="" action="#" method="get">
+        <div class="form">
+            <legend>Let's start!</legend>
+
+            <div class="ebe">
+              <label for="name">First name:</label>
+              <input type="text" id="first-name" name="name" required>
+            </div>
+            <div class="ebe">
+              <label for="name">Last name:</label>
+              <input type="text" id="last-name" name="surname" required>
+            </div>
+            <div class="ebe">
+              <label for="phone_number">Phone Number:</label>
+              <input type="tel" id="phone_number" name="phone_number" pattern="\d{9,}" title="Only digits" required>
+            </div>
+            <div class="ebe">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" title="Enter valid email" required>
+            </div>
+            <div class="ebe">
+              <label for="password">Password:</label>
+              <input type="password" name="password" required>
+            </div>
+            <div class="ebe">
+              <label for="password">Confirm password:</label>
+              <input type="password" name="password" required>
+            </div>
+        </div>
+        <div class="end">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+</style>
+</html>
